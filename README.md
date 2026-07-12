@@ -9,7 +9,6 @@
 <br/>
 
 <img src="https://img.shields.io/static/v1?label=STATUS&message=OPEN+TO+WORK&color=0EA5E9&style=for-the-badge&labelColor=0b1220" alt="Open to Work"/>
-<img src="https://img.shields.io/static/v1?label=FOCUS&message=Local-First+AI+Agents&color=0EA5E9&style=for-the-badge&labelColor=0b1220" alt="Focus"/>
 
 <br/><br/>
 
@@ -29,29 +28,26 @@ const zaidan = {
   title: "AIML Engineering Student (2nd Semester)",
 
   stack: {
-    languages:    ["Python", "JavaScript / Node.js", "Batch", "PowerShell"],
-    frontend:     ["HTML", "CSS"],
-    backend:      ["Node.js — server.js / database.js / CLI+API logic",
-                    "Python — CLI tools & automation"],
-    cloud:        ["Local-first workflows", "Hosted AI services (as needed)"],
-    aiTooling:    ["Ollama", "Claude Code", "Gemini CLI", "Headroom",
-                    "agentrouter", "MCP servers", "n8n"],
-    devOpsInfra:  ["Git", "GitHub", "Windows environment management",
-                    "API proxy setups"],
+    languages:   ["Python", "JavaScript / Node.js", "Batch", "PowerShell"],
+    frontend:    ["HTML", "CSS"],
+    backend:     ["Node.js — server.js, database.js, test.js, CLI/API logic",
+                   "Python — CLI tools & automation"],
+    cloud:       ["Local-first workflows", "Hosted AI services (as needed)"],
+    aiTools:     ["Ollama", "Claude Code", "Gemini CLI", "Headroom",
+                   "agentrouter", "MCP servers", "n8n"],
+    devOpsInfra: ["Git", "GitHub", "Windows environment management",
+                   "API proxy setups"],
+    otherTech:   ["Notion (documentation)", "Windows CMD & PowerShell workflows",
+                   "Local AI model management"],
   },
 
   launchedProjects: ["Velocity-legends", "crimson-blazar"],
 
   certifications: [
-    "Building toward certifications via the awesome-certificates resource list"
+    "Curating and using resources from awesome-certificates (free course + certificate list for CS/IT/design)"
   ],
 
-  currentlyLearning: [
-    "Advanced agent orchestration & MCP server design",
-    "Production-grade AI tooling patterns"
-  ],
-
-  status: "Actively building local AI & agent workflows",
+  status: "Student · Actively building local AI & agent workflows · Learning advanced AI tooling and automation",
 
   openTo: [
     "AIML / AI tooling / automation internships",
@@ -66,74 +62,65 @@ const zaidan = {
 
 ## 🚀 Featured Projects
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
 ### 🏎️ Velocity-legends
 
 <a href="https://github.com/zaidansheikh180-gif/Velocity-legends">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zaidansheikh180-gif&repo=Velocity-legends&theme=nord&border_color=0EA5E9&title_color=0EA5E9&icon_color=0EA5E9&bg_color=0b1220" alt="Velocity-legends" width="100%"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zaidansheikh180-gif&repo=Velocity-legends&theme=nord&border_color=0EA5E9&title_color=0EA5E9&icon_color=0EA5E9&bg_color=0b1220" alt="Velocity-legends" width="420"/>
 </a>
 
 AI-powered tooling experiments and workflows — includes a Claude-related PR that was merged.
 
-`Python` `Node.js` `Claude CLI/skills` `GitHub Workflows`
+| Layer | Technology |
+|---|---|
+| Core Language | Python |
+| Runtime | Node.js |
+| Integration | Claude (CLI / skills) |
+| CI / Workflow | GitHub Workflows |
 
-**[↗ View Code](https://github.com/zaidansheikh180-gif/Velocity-legends)**
+**Live:** _(none yet — local/dev tooling project)_
+**Code:** [github.com/zaidansheikh180-gif/Velocity-legends](https://github.com/zaidansheikh180-gif/Velocity-legends)
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 ### 🎯 crimson-blazar
 
 <a href="https://github.com/zaidansheikh180-gif/crimson-blazar">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zaidansheikh180-gif&repo=crimson-blazar&theme=nord&border_color=0EA5E9&title_color=0EA5E9&icon_color=0EA5E9&bg_color=0b1220" alt="crimson-blazar" width="100%"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=zaidansheikh180-gif&repo=crimson-blazar&theme=nord&border_color=0EA5E9&title_color=0EA5E9&icon_color=0EA5E9&bg_color=0b1220" alt="crimson-blazar" width="420"/>
 </a>
 
-SmartTrack AI-style app — teacher-led registration, face ID uniqueness checks, and student editing.
+SmartTrack AI-style app with teacher-led registration, face ID uniqueness, and student editing — built with Node.js and a simple web frontend.
 
-`HTML` `CSS` `Node.js` `PowerShell`
+| Layer | Technology |
+|---|---|
+| Frontend | HTML, CSS |
+| Backend | JavaScript, Node.js |
+| Scripting | PowerShell (`download_models.ps1`) — local model/download scripting |
 
-**[↗ View Code](https://github.com/zaidansheikh180-gif/crimson-blazar)**
-
-</td>
-</tr>
-</table>
+**Live:** _(add later if you deploy it)_
+**Code:** [github.com/zaidansheikh180-gif/crimson-blazar](https://github.com/zaidansheikh180-gif/crimson-blazar)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0EA5E9&height=2&width=100%" width="100%"/>
 
 ## 🛠️ Tech Stack
 
-<table width="100%">
-<tr>
-<td valign="top" width="33%">
-
 **Languages**
 
 <img src="https://skillicons.dev/icons?i=py,js&theme=dark" alt="Languages"/>
-
 `Batch` `PowerShell`
-
-</td>
-<td valign="top" width="33%">
 
 **Frontend**
 
 <img src="https://skillicons.dev/icons?i=html,css&theme=dark" alt="Frontend"/>
 
-</td>
-<td valign="top" width="33%">
-
 **Backend / Infra**
 
 <img src="https://skillicons.dev/icons?i=nodejs,git,github,windows&theme=dark" alt="Backend / Infra"/>
 
-</td>
-</tr>
-</table>
+**Cloud**
 
-**AI Tooling**
+`Local-first workflows` `Hosted AI services (as needed)`
+
+**AI Tools**
 
 <p>
 <img src="https://img.shields.io/badge/Ollama-0EA5E9?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
@@ -145,13 +132,17 @@ SmartTrack AI-style app — teacher-led registration, face ID uniqueness checks,
 <img src="https://img.shields.io/badge/MCP_Servers-0EA5E9?style=for-the-badge&logoColor=white" alt="MCP Servers"/>
 </p>
 
+**Dev Tools**
+
+`Notion (documentation)` `Windows CMD & PowerShell workflows` `Local AI model management`
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0EA5E9&height=2&width=100%" width="100%"/>
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=zaidansheikh180-gif&show_icons=true&theme=nord&border_color=0EA5E9&title_color=0EA5E9&icon_color=0EA5E9&text_color=c9d1d9&bg_color=0b1220&hide_border=false" alt="GitHub Stats" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=zaidansheikh180-gif&show_icons=true&theme=nord&border_color=0EA5E9&title_color=0EA5E9&icon_color=0EA5E9&text_color=c9d1d9&bg_color=0b1220" alt="GitHub Stats" height="180"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaidansheikh180-gif&layout=compact&theme=nord&border_color=0EA5E9&title_color=0EA5E9&text_color=c9d1d9&bg_color=0b1220" alt="Top Languages" height="180"/>
 
 <br/>
@@ -185,10 +176,6 @@ SmartTrack AI-style app — teacher-led registration, face ID uniqueness checks,
 <a href="https://github.com/zaidansheikh180-gif">
   <img src="https://img.shields.io/badge/GitHub-Profile-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
-
-<br/><br/>
-
-<sub>💬 Building in public, one local agent at a time.</sub>
 
 <br/><br/>
 
